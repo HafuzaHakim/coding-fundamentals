@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breadcrumb</title>
+    <style>
+        .breadcrumb{
+            padding: 10px 30px;
+            background-color: #FBFF12;
+            list-style-type: none;
+        }
+
+        .breadcrumb li{
+            display: inline;
+        }
+
+        .breadcrumb li a{
+            color: #FF206E;
+        }
+
+        .backstroke::before{
+            padding:10px;
+            content: "/";
+            color: #41EAD4;
+        }
+    </style>
+</head>
+<body>
+    <ul class="breadcrumb">  
+        <li><a href="#">Home</a></li>  
+        <li class="backstroke"><a href="#">Users</a></li>  
+        <li class="backstroke"><a href="#">Your Name</a></li>  
+        <li class="backstroke">Info</li>
+    </ul>
+</body>
+</html>
