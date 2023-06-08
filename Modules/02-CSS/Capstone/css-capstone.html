@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Responsive Page</title>
+    <style>
+
+        @media (max-width:639px ){
+
+            body{
+                background-color: red;
+            }
+
+            .tablet, .desktop{
+                display: none;
+            }
+
+        }
+
+        @media (640px <= width <=1023px){
+
+            body{
+                background-color: lightgreen;
+            }
+
+            .mobile, .desktop{
+                display: none;
+            }
+
+        }
+
+        @media (min-width:1024px){
+
+            body{
+                background-color: blue;
+                color: white;
+            }
+
+            .mobile, .tablet{
+                display: none;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <section class="mobile">
+        <h1>Mobile Screen</h1>
+        <p>Red Color</p>
+    </section>
+    <section class="tablet">
+        <h1>Tablet Screen</h1>
+        <p>Green Color</p>
+    </section>
+    <section class="desktop">
+        <h1>Desktop Screen</h1>
+        <p>Blue Color</p>
+    </section>
+</body>
+</html>
