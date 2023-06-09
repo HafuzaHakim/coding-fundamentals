@@ -1,0 +1,132 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display:flex;
+    background-color: #ffca3a;
+    color: #6c584c;
+    padding:50px 200px;
+    height:600px;
+    justify-content: space-between;
+    align-items:center;
+    column-gap: 40px;
+    flex-wrap: wrap;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+div > p{
+    line-height: 30px;
+}
+
+.left{
+    max-width: 50%;
+}
+
+div > img{
+   width: 100px;
+}
+
+
+main{
+    display:flex;
+    padding: 50px 200px;
+    height: 1200px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fef9ef;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #cc5803;
+    text-shadow: 2px 2px 10px #ffc971;
+    margin-bottom: 20px;
+}
+
+.patch-note, .event, .dev-blog{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 0px 60px 0px;
+}
+
+.card{
+    background-color: #ffefd3;
+    width:300px;
+    height: 400px;
+    border-radius: 5%;
+    box-shadow: 4px 4px 10px #f0cea0;
+    margin: 10px;
+}
+
+.card:hover{
+    box-shadow:6px 6px 12px #d0b8ac;
+}
+
+.card-img{
+    height: 200px;
+    background-size: cover;
+    border-radius:5% 5% 0 0;
+}
+
+.patch-note .card-img {
+    background-image: url(https://orangemushroom.files.wordpress.com/2023/04/20thevent.0.gif?w=1024);
+
+}
+
+.event .card-img{
+    background-image: url(https://orangemushroom.files.wordpress.com/2023/02/2022wonky3.0.gif?w=1024);
+}
+
+.dev-blog .card-img{
+    background-image: url(https://orangemushroom.files.wordpress.com/2015/10/blockbuster-teaser.jpg?w=595);
+}
+
+ul{
+    list-style: none;
+}
+
+.card > h3, .card-footer{
+    margin: 5px 10px;
+    padding:10px 0;
+}
+
+.tags > li{
+    margin-left: 10px;
+    padding: 5px 5px;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #fca311;
+    color: white;
+    border-radius: 10%;
+    margin-left: 10px;
+    font-size: small;
+}
+
+h3{
+    height:120px;
+    color:#6c584c;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.author{
+    margin-right: auto;
+}
+
+.card-footer > li{
+    padding:0px 5px;
+    color: grey;
+}
