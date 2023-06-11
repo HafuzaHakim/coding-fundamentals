@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7a916139ac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="./logo.png" alt="Logo" class="logo">
+            <nav class="links">
+                <a href="#">Changelog</a>
+                <a href="#">About</a>
+                <a href="#">Partners</a>
+                <a href="#">News</a>
+            </nav>
+            <a href="#" class="login">Login</a>
+        </div>
+    </header>
+    <main>
+
+        <section class="main-heading">
+            <div class="left-heading">
+                <h1>Get in touch</h1>
+                <p>Discover the mesmerizing realm of Slime Fanatics, where slime becomes an art form. Immerse yourself in our diverse collection of slime masterpieces, expert guidance, and captivating experiences. Unleash your inner slime enthusiast and embark on a thrilling journey with our vibrant community. Get ready to get slimy!</p>
+            </div>
+            <div class="right-heading">
+                <img src="https://orangemushroom.files.wordpress.com/2021/08/guardian-angel-slime-1.gif?w=569&h=427">
+            </div>
+        </section>
+
+        <section class="main-card">
+            <div class="contact-info">
+                <h2 class="info-heading">Contact Information</h2>
+                <p class="info-caption">Join us in celebrating the mesmerizing textures, vibrant colors, and delightful sensory experiences. Embrace the unity and joy that comes with our shared devotion to all things slime!</p>
+                <a href="#" class="phone">+60123456789</a>
+                <a href="mailto:support@slime.com" class="email">support@slime.com</a>
+                <div class="social">
+                    <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="github"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h2 class="form-heading">Send us a message</h2>
+                <form action="#" method="get">
+                    <div class="form-input duo">
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" required>
+                    </div>
+                    <div class="form-input duo">
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name" required>
+                    </div>
+                    <div class="form-input duo">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-input duo">
+                        <label for="phone" class="side-label">Phone <span>Optional</span></label>
+                        <input type="text" id="phone">
+                    </div>
+                    <div class="form-input solo">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" required>
+                    </div>
+                    <div class="form-input solo">
+                        <label for="message" class="side-label">Message <span>Max 500 characters</span></label>
+                        <textarea name="message" id="message" cols="30" rows="10" maxlength="500"></textarea>
+                    </div>
+                    <div class="submit solo">
+                        <input type="submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

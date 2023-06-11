@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6a994e;
+    /* border: 1px solid black; */
+}
+
+html, body{
+    height: 100%;
+    background-color: #caffbf;
+}
+/* Header Styling*/
+.header{
+    margin:0 auto;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 80px;
+    margin:5px 20px;
+}
+
+.login{
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: #fec601 ;
+}
+
+.links > a{
+    margin:0px 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.links > a:hover{
+    color: #fec601;
+}
+/* Main styling */
+/* Main Heading Section Styling */
+.main-heading{
+    margin:0 auto;
+    max-width: 1400px;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-heading{
+    max-width: 45%;
+}
+
+.right-heading > img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.left-heading{
+    max-width: 45%;
+}
+
+.left-heading > h1{
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+}
+
+.left-heading > p{
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+/* Main-Card Section Styling */
+.main-card{
+    margin:0 auto;
+    max-width: 1400px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.contact-info{
+    flex:1 1 auto;
+    max-width: 30%;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #7cb518;
+}
+
+.contact-info *{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social > .github{
+    margin:0 30px;
+}
+
+.social a{
+    font-size: 25px;
+}
+
+.contact-form{
+    flex: 1 1 auto;
+    max-width: 70%;
+    padding:40px 20px;
+    background-color: #ffffff;
+}
+
+.form-heading{
+    margin-bottom: 30px;
+}
+
+.main-card h2{
+    font-weight: 200;
+}
+
+label, input{
+    display: block;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 2px groove;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.duo{
+    flex:1 1 45%;
+}
+
+.solo{
+    flex: 1 1 100%;
+}
+
+.submit{
+    display: flex;
+    justify-content: flex-end;
+}
+.submit > input{
+    width: auto;
+    background-color: #caffbf;
+    cursor: pointer;
+    border: 2px groove #7cb518;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.side-label{
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    font-size: small;
+    color: gray;
+}
